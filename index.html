@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Basic CSS Selectors</title>
+    <title>CSS Selectors Example</title>
 
     <style>
-        /* Write your CSS here */
+        * {
+            font-family: Verdana, sans-serif;
+        }
 
+        h1 {
+            color: rgb(7, 7, 7);
+        }
+
+        #title {
+            background-color: rgb(9, 199, 247);
+        }
+
+        .text {
+            color: rgb(223, 12, 12);
+            font-size: 20px;
+        }
+
+        h2, p {
+            text-align: center;
+        }
     </style>
-
 </head>
 
 <body>
 
-     /* Write your html code to structure your web page here */
+    <h1 id="title">Welcome to CSS</h1>
+
+    <h2>Selectors Example</h2>
+
+    <p class="text">This is a paragraph using the class selector.</p>
+
+    <p>This is another paragraph using the grouping selector.</p>
 
 </body>
 </html>
